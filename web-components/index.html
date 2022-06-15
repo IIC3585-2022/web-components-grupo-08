@@ -1,0 +1,204 @@
+<!-- HTML5 TEMPLATE-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Components Showcase</title>
+    <script src="SellItem.js"></script>
+    <script src="TodoList.js"></script>
+  </head>
+  <body>
+    <h1 class="main-title">La Ñuñoína</h1>
+    <div class="section">
+      <p class="title">Peluquería Aesthetic</p>
+      <div class="item-container">
+        <sell-item
+          brand="Pulp Fiction"
+          title="Chasquilla Mia Wallace"
+          price="29990"
+          image="images/chasquilla.png"
+          color="#66ffff"
+        ></sell-item>
+        <sell-item
+          brand="Hipster"
+          title="Barbería Contemporánea"
+          price="15990"
+          image="images/barba.png"
+          color="#66ffff"
+        ></sell-item>
+        <sell-item
+          brand="Artic Fox"
+          title="Tintura Capilar (Variedades)"
+          price="8990"
+          image="images/tintura.png"
+          color="#66ffff"
+        ></sell-item>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="title">Prendas y Accesorios Reciclados</p>
+      <div class="item-container">
+        <sell-item
+          brand="Homemade"
+          title="Cortavientos Discreto"
+          price="59990"
+          image="images/cortavientos-discreto.png"
+          color="#ddddff"
+        ></sell-item>
+        <sell-item
+          brand="Hipster"
+          title="Lentes Exclusivos"
+          price="9990"
+          image="images/lentes.png"
+          color="#ddddff"
+        ></sell-item>
+        <sell-item
+          brand="Genérica"
+          title="Calzas Deportivas"
+          price="39990"
+          image="images/calza.png"
+          color="#ddddff"
+        ></sell-item>
+        <sell-item
+          brand="Adidas"
+          title="Short Deportivo"
+          price="29990"
+          image="images/short.png"
+          color="#ddddff"
+        ></sell-item>
+        <sell-item
+          brand="Brandless"
+          title="Sweater Reacondicionado"
+          price="64990"
+          image="images/sweater.png"
+          color="#ddddff"
+        ></sell-item>
+        <sell-item
+          brand="Brandless"
+          title="Banano color Rojo"
+          price="9990"
+          image="images/banano.png"
+          color="#ddddff"
+        ></sell-item>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="title">Vehículos</p>
+      <div class="item-container">
+        <sell-item
+          brand="La Flaca"
+          title="Velocípedo Aguamarina"
+          price="599990"
+          image="images/bici1.png"
+          color="#ffff66"
+        ></sell-item>
+        <sell-item
+          brand="La Flaca"
+          title="Velocípedo Magenta"
+          price="249990"
+          image="images/bici2.png"
+          color="#ffff66"
+        ></sell-item>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="title">Alimentación</p>
+      <div class="item-container">
+        <sell-item
+          brand="NotCo"
+          title="Not Mayo"
+          price="3990"
+          image="images/notmayo.png"
+          color="#ff6666"
+        ></sell-item>
+        <sell-item
+          brand="Homemade"
+          title="Hot Dog Americano con Palta y Tomate"
+          price="2500"
+          image="images/hotdog.png"
+          color="#ff6666"
+        ></sell-item>
+        <sell-item
+          brand="Homemade"
+          title="Sopaipillas (4 unidades)"
+          price="1190"
+          image="images/sopaipillas.png"
+          color="#ff6666"
+        ></sell-item>
+        <sell-item
+          brand="Homemade"
+          title="Queque Mágico"
+          price="11990"
+          image="images/queque.png"
+          color="#ff6666"
+        ></sell-item>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="title">Servicios</p>
+      <div class="item-container">
+        <sell-item
+          brand="Funable"
+          title="Te hago la entrega final del curso IIC3585"
+          price="30000"
+          image="images/framework.png"
+          color="#66ff66"
+        ></sell-item>
+        <sell-item
+          brand="Delivery"
+          title="Copete a domicilio"
+          price="5000"
+          image="images/baltica.png"
+          color="#66ff66"
+        ></sell-item>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="title">Otros</p>
+      <div class="item-container">
+        <sell-item
+          brand="Social"
+          title="Desfuna"
+          price="1000000"
+          image="images/desfuna.png"
+          color="#fff"
+        ></sell-item>
+        <sell-item
+          brand="Social"
+          title="Deconstrucción"
+          price="350000"
+          image="images/deconstruccion.png"
+          color="#fff"
+        ></sell-item>
+        <sell-item
+          brand="Floppa"
+          title="Felino Exótico"
+          price="539990"
+          image="images/exotico.png"
+          color="#fff"
+        ></sell-item>
+        <sell-item
+          brand="CAI"
+          title="Entrada Galita 2022 (General)"
+          price="80000"
+          image="images/galita.jpg"
+          color="#fff"
+        ></sell-item>
+      </div>
+    </div>
+
+    <todo-list
+      title="Lista de compras"
+      placeholder="Escriba aquí"
+      list="Corte Aesthetic,Alimentación Ecoamigable,Bicicleta"
+    ></todo-list>
+  </body>
+</html>
